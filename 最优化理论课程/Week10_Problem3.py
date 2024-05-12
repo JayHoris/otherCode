@@ -4,6 +4,7 @@ import time
 from sympy import symbols, diff, solve
 
 
+
 def time_decorator(func):
     # 装饰器，测量执行时间
     def wrapper(*args, **kwargs):
